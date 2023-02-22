@@ -1,12 +1,13 @@
 <script>
-import HomePageBeers from '@/components/HomePageBeers.vue'
-
+import TodoVue from './components/Todo.vue';
 export default{
   components:{
-    HomePageBeers
+    TodoVue
   }
 }
 </script>
 <template>
-  <HomePageBeers />
+  <div class="HomePage">
+<TodoVue />
+  </div>
 </template>
